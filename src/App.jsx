@@ -6,7 +6,7 @@ import ContactForm from "./components/ContactForm/ContactForm.jsx";
 import ContactList from "./components/ContactList/ContactList.jsx";
 import SearchBox from "./components/SearchBox/SearchBox.jsx";
 import { selectLoading, selectError } from "./redux/contactsSlice.js";
-import { fetchContacts } from "./interfaces/interfaces.js";
+import { fetchContacts } from "./redux/contactsOps.js";
 
 export default function App() {
   const dispatch = useDispatch();
